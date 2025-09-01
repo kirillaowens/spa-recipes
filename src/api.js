@@ -10,9 +10,9 @@ const getAllCategories = async () => {
   return await responce.json();
 };
 
-const getMealByFilter = async (filter) => {
+const getMealsByFilter = async (filter) => {
   const responce = await fetch(`${API_URL}/filter.php?c=${filter}`);
   return await responce.json();
 };
 
-export { getMealById, getAllCategories, getMealByFilter };
+export { getMealById, getAllCategories, getMealsByFilter };
