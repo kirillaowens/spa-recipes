@@ -12,6 +12,7 @@ function Home() {
       setCatalog(data.categories);
     });
   }, []);
+
   console.log(catalog);
   return <Box>{!catalog.length ? <Preloader /> : <CategoryList catalog={catalog} />}</Box>;
 }

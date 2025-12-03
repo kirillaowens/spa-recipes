@@ -1,6 +1,5 @@
 import AppBar from '@mui/material/AppBar';
-import { Typography, Paper, Toolbar, InputBase, IconButton } from '@mui/material';
-import SearchIcon from '@mui/icons-material/Search';
+import { Typography, Toolbar } from '@mui/material';
 
 function Header() {
   return (
@@ -19,20 +18,6 @@ function Header() {
         >
           Recipes
         </Typography>
-        <Paper
-          component="form"
-          sx={{
-            display: 'flex',
-            alignItems: 'center',
-            borderRadius: '10px',
-            height: '50px',
-          }}
-        >
-          <InputBase sx={{ ml: 1, flex: 1, fontSize: 16 }} placeholder="Search recipes..." />
-          <IconButton disableRipple type="submit" sx={{ p: '10px' }}>
-            <SearchIcon sx={{ width: 30, height: 30 }} />
-          </IconButton>
-        </Paper>
       </Toolbar>
     </AppBar>
   );
