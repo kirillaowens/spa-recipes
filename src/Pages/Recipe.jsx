@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Link as RouterLink, useParams, useNavigate } from 'react-router-dom';
-import { Box, Link as MuiLink } from '@mui/material';
+import { useParams, useNavigate } from 'react-router-dom';
+import { Box } from '@mui/material';
 import { getMealById } from '../api';
 import Preloader from '../Components/Preloader';
 import MealRecipe from '../Components/MealRecipe';
