@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/spa-recipes/static/js/main.b7afacab.js",
+    "index.html": "/spa-recipes/index.html",
+    "main.b7afacab.js.map": "/spa-recipes/static/js/main.b7afacab.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b7afacab.js"
+  ]
+}
